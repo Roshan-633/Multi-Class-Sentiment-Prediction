@@ -17,7 +17,7 @@ The objective was to classify text into three sentiment categories — **positiv
 ## Key Features
 - **Preprocessing Pipeline**: tokenization, lemmatization, and tailored stopword removal for sentiment-critical words.  
 - **Deep Learning Model**: BiGRU with an attention layer to capture contextual importance in text sequences.  
-- **Word Embeddings**: 300-dimensional pre-trained **GloVe embeddings** for rich semantic representation.  
+- **Word Embeddings**: 300-dimensional pre-trained Stanford **GloVe embeddings** for rich semantic representation.  
 - **Training Setup**: Adam optimizer, learning rate 0.001, batch size 32, trained for 14 epochs.  
 
 ---
@@ -35,7 +35,8 @@ The objective was to classify text into three sentiment categories — **positiv
 
 ---
 
-## Files
-- `sentiment_analysis.ipynb` → Main Colab notebook with preprocessing, model training, and evaluation.  
+## Files and links
+- `sentiment_analysis.ipynb` → Main Colab notebook with preprocessing, model training, and evaluation.
+- glove embeddings download link - "https://nlp.stanford.edu/data/glove.6B.zip"
   
 
